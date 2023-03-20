@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Login.css";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { auth, provider } from "../../firebase";
 
 function Login() {
@@ -45,7 +44,7 @@ function Login() {
             alt=""
           />
         </div>
-       
+        
         <div className="login__auth">
           <div className="login__authOptions">
             <div className="login__authOption">
@@ -101,7 +100,7 @@ function Login() {
             <button onClick={registerSignIn}>Register</button>
           </div>
         </div>
-
+        
       </div>
     </div>
   );

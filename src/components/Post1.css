@@ -57,12 +57,12 @@
     /* justify-content: space-between; */
     margin-top: 10px;
 }
-.post__footer > .MuiSvgIcon-root{
+.post__footer > span >.MuiSvgIcon-root{
     color: grey;
     margin-right: 40px;
     cursor: pointer;
 }
-.post__footerAction{
+.post__footerAction > span{
  display: flex;
  justify-content: space-around;
  align-items: center;
